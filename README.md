@@ -1,16 +1,14 @@
-# Geotag Photos — Location Banner Overlay
+<img width="3072" height="4096" alt="IMG20260625174728" src="https://github.com/user-attachments/assets/10ad8546-d7fb-4717-bb0d-af21388e5682" /># Geotag Photos — Location Banner Overlay
 
 `geotag.py` burns a **GPS Map Camera–style location banner** onto the bottom of
 geotagged photos. For each image it reads the GPS coordinates from EXIF,
 reverse-geocodes them to a place name and address, fetches an OpenStreetMap
 thumbnail, and composites a banner:
 
-```
-┌───────┐  Nanowal Khurd, Punjab, India                     ← bold place title
-│  map  │  Nanowal-Lakhanpur Road, Nanowal Khurd, Khamanon
-│  📍   │  Tahsil, Fatehgarh Sahib, Punjab, 141801, India    ← full address
-└───────┘  Lat: 30.839203°  Long: 76.313354°                ← coordinates
-```
+Compare the given two images in the repository. 
+
+IMG20260625174728.jpg Vs 
+IMG20260625174728-geotagged.jpg
 
 **Location only** — no time or date is written to the banner.
 
