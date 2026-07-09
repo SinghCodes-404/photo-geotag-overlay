@@ -5,11 +5,11 @@ bottom of your photos — the kind that shows a little map, the place name, the
 full address, the coordinates, and the day/date/time:
 
 ```
-┌───────┐  Nanowal Khurd, Punjab, India                     ← place name
-│  map  │  Nanowal-Lakhanpur Road, Nanowal Khurd, Khamanon
-│  pin  │  Tahsil, Fatehgarh Sahib, Punjab, 141801, India   ← full address
-└───────┘  Lat: 30.839203°  Long: 76.313354°                ← coordinates
-           Wednesday, 24/06/2026 09:04 AM GMT +05:30         ← day / date / time
+┌───────┐  Times Square, New York, USA              ← place name
+│  map  │  Broadway & 7th Ave, Times Square, Midtown
+│  pin  │  Manhattan, New York, NY 10036, USA       ← full address
+└───────┘  Lat: 40.758011°  Long: -73.985513°       ← coordinates
+           Thursday, 15/08/2024 03:47 PM GMT -05:00 ← day / date / time
 ```
 
 The **location** is read from the GPS that your phone camera saved inside each
